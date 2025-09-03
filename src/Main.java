@@ -63,7 +63,7 @@ public class Main {
 
         // Задача 8.2
         quantityOfWorkers = quantityOfWorkers + 94;
-        hoursPerWorker = summaryHours / quantityOfWorkers;
-        System.out.println("Если в компании работает " + quantityOfWorkers + " человек, то всего " + hoursPerWorker + " часов работы может быть поделено между сотрудниками");
+        summaryHours = hoursPerWorker * quantityOfWorkers;
+        System.out.println("Если в компании работает " + quantityOfWorkers + " человек, то всего " + summaryHours + " часов работы может быть поделено между сотрудниками");
     }
 }
